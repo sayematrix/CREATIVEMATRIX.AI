@@ -1,5 +1,11 @@
 {
   "name": "CREATIVEMATRIX.AI",
-  "description": "A high-performance, futuristic free-learning landing page for the SAYEMATRIX ecosystem, focusing on AI art, design, and content creation.",
-  "requestFramePermissions": []
+  "description": "High-performance AI learning ecosystem for the SAYEMATRIX community. Features interactive lessons, AI tools, and professional PDF exports.",
+  "requestFramePermissions": [],
+  "deployment": {
+    "platform": "netlify",
+    "env": [
+      "API_KEY"
+    ]
+  }
 }
