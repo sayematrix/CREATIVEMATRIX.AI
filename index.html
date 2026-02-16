@@ -8,6 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              neon: '#a855f7',
+              neonGreen: '#39ff14',
+              matrix: '#030303',
+            },
+            fontFamily: {
+              orbitron: ['Orbitron', 'sans-serif'],
+              space: ['Space Grotesk', 'sans-serif'],
+            },
+            boxShadow: {
+              neon: '0 0 20px rgba(168, 85, 247, 0.4)',
+              neonGreen: '0 0 20px rgba(57, 255, 20, 0.4)',
+            }
+          }
+        }
+      }
+    </script>
     <style>
       body {
         font-family: 'Space Grotesk', sans-serif;
@@ -33,6 +54,13 @@
       .animate-float {
         animation: float 6s ease-in-out infinite;
       }
+      @keyframes spin-slow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .animate-spin-slow {
+        animation: spin-slow 12s linear infinite;
+      }
       .custom-scrollbar::-webkit-scrollbar {
         width: 6px;
       }
@@ -49,9 +77,12 @@
       .text-glow-purple {
         text-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
       }
-      .bg-matrix {
-        background: radial-gradient(circle at top right, rgba(88, 28, 135, 0.1), transparent 40%),
-                    radial-gradient(circle at bottom left, rgba(49, 46, 129, 0.1), transparent 40%);
+      .text-glow-green {
+        text-shadow: 0 0 20px rgba(57, 255, 20, 0.4);
+      }
+      .bg-matrix-gradient {
+        background: radial-gradient(circle at top right, rgba(168, 85, 247, 0.05), transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(57, 255, 20, 0.03), transparent 40%);
       }
     </style>
   <script type="importmap">
@@ -67,7 +98,7 @@
 }
 </script>
 </head>
-  <body class="bg-matrix custom-scrollbar">
+  <body class="bg-matrix-gradient custom-scrollbar">
     <div id="root"></div>
   </body>
 </html>

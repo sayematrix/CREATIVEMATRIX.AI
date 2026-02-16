@@ -39,9 +39,9 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
           className="flex items-center gap-3 cursor-pointer group" 
           onClick={() => onNavigate('landing')}
         >
-          <Cpu className="text-purple-500 w-8 h-8 transition-transform group-hover:rotate-12" />
+          <Cpu className="text-neon w-8 h-8 transition-transform group-hover:rotate-12" />
           <span className="font-orbitron font-black text-xl tracking-tighter text-white">
-            CREATIVE<span className="text-purple-500">MATRIX</span>.AI
+            CREATIVE<span className="text-neon">MATRIX</span>.AI
           </span>
         </div>
 
@@ -52,14 +52,14 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
               key={link.name}
               href={link.target}
               onClick={(e) => handleLinkClick(e, link.target)}
-              className={`text-[10px] font-bold tracking-[0.2em] uppercase font-orbitron transition-colors hover:text-purple-400 ${link.isActive ? 'text-purple-500' : 'text-gray-400'}`}
+              className={`text-[10px] font-bold tracking-[0.2em] uppercase font-orbitron transition-colors hover:text-neon ${link.isActive ? 'text-neon' : 'text-gray-400'}`}
             >
               {link.name}
             </a>
           ))}
           <button 
             onClick={() => onNavigate('lessons-list')}
-            className="ml-4 bg-purple-500/5 border border-purple-500/30 text-purple-500 px-6 py-2.5 rounded-xl font-orbitron text-[10px] font-bold tracking-[0.2em] uppercase hover:bg-purple-500 hover:text-black hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all duration-500"
+            className="ml-4 bg-neon/5 border border-neon/30 text-neon px-6 py-2.5 rounded-xl font-orbitron text-[10px] font-bold tracking-[0.2em] uppercase hover:bg-neon hover:text-black hover:shadow-neon transition-all duration-500"
           >
             START LEARNING
           </button>
@@ -82,14 +82,14 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
               key={link.name}
               href={link.target}
               onClick={(e) => handleLinkClick(e, link.target)}
-              className={`text-xl font-bold uppercase font-orbitron ${link.isActive ? 'text-purple-500' : 'text-gray-400'}`}
+              className={`text-xl font-bold uppercase font-orbitron ${link.isActive ? 'text-neon' : 'text-gray-400'}`}
             >
               {link.name}
             </a>
           ))}
           <button 
             onClick={() => { onNavigate('lessons-list'); setIsOpen(false); }}
-            className="w-full bg-purple-500/5 border border-purple-500/30 text-purple-500 py-4 rounded-xl font-orbitron text-xs font-bold tracking-[0.2em] uppercase hover:bg-purple-500 hover:text-black transition-all duration-500 mt-4"
+            className="w-full bg-neon/5 border border-neon/30 text-neon py-4 rounded-xl font-orbitron text-xs font-bold tracking-[0.2em] uppercase hover:bg-neon hover:text-black transition-all duration-500 mt-4"
           >
             START LEARNING
           </button>
