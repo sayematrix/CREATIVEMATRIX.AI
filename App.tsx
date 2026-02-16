@@ -1,18 +1,18 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import LearningHub from './components/LearningHub';
-import Tools from './components/Tools';
-import PhilosophySection from './components/PhilosophySection';
-import PhilosophyDetail from './components/PhilosophyDetail';
-import SocialConnect from './components/SocialConnect';
-import Community from './components/Community';
-import Footer from './components/Footer';
-import LessonsList from './components/LessonsList';
-import LessonDetail from './components/LessonDetail';
-import { ALL_LESSONS } from './data/lessons';
-import { Lesson } from './types';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import LearningHub from './components/LearningHub.tsx';
+import Tools from './components/Tools.tsx';
+import PhilosophySection from './components/PhilosophySection.tsx';
+import PhilosophyDetail from './components/PhilosophyDetail.tsx';
+import SocialConnect from './components/SocialConnect.tsx';
+import Community from './components/Community.tsx';
+import Footer from './components/Footer.tsx';
+import LessonsList from './components/LessonsList.tsx';
+import LessonDetail from './components/LessonDetail.tsx';
+import { ALL_LESSONS } from './data/lessons.ts';
+import { Lesson } from './types.ts';
 
 export type ViewType = 'landing' | 'philosophy' | 'lessons-list' | 'lesson-detail';
 
