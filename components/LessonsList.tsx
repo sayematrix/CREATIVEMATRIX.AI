@@ -46,10 +46,10 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
         doc.setFont("helvetica", "bold");
         doc.setFontSize(10);
         doc.setTextColor(clrNeon[0], clrNeon[1], clrNeon[2]);
-        doc.text("CREATIVEMATRIX", margin, 12);
+        doc.text("ARTENIXO", margin, 12);
         doc.setFontSize(8);
         doc.setTextColor(clrMuted[0], clrMuted[1], clrMuted[2]);
-        doc.text("SAYEMATRIX FREE-LEARNING ECOSYSTEM", pageWidth - margin, 12, { align: 'right' });
+        doc.text("ARTENIXO FREE-LEARNING ECOSYSTEM", pageWidth - margin, 12, { align: 'right' });
 
         let cursorY = 25;
         doc.setFillColor(clrNeon[0], clrNeon[1], clrNeon[2]);
@@ -100,7 +100,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
         drawSubSection("ACTION BREAKDOWN", lesson.actionBreakdown);
         doc.setFontSize(7);
         doc.setTextColor(60, 60, 70);
-        doc.text("NO PAYMENT. NO BARRIER. JUST LEARNING. | @CREATIVEMATRIX", pageWidth / 2, pageHeight - 10, { align: 'center' });
+        doc.text("NO PAYMENT. NO BARRIER. JUST LEARNING. | @ARTENIXO", pageWidth / 2, pageHeight - 10, { align: 'center' });
         doc.text(`PAGE ${index + 2} OF ${ALL_LESSONS.length + 1}`, pageWidth - margin, pageHeight - 10, { align: 'right' });
       };
 
@@ -122,7 +122,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
       doc.line(margin, 135, margin + 50, 135);
 
       ALL_LESSONS.forEach((lesson, i) => drawModulePage(lesson, i));
-      doc.save("CreativeMatrix_Full_Curriculum.pdf");
+      doc.save("ARTENIXO_Full_Curriculum.pdf");
     } catch (error) {
       console.error(error);
       alert("Failed to generate PDF.");

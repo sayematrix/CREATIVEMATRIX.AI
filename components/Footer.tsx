@@ -29,12 +29,12 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <Cpu className="text-neon w-8 h-8 md:w-10 md:h-10 transition-transform group-hover:rotate-12 group-hover:scale-110" />
             </div>
             <span className="font-orbitron text-2xl md:text-3xl font-black tracking-tighter uppercase text-white">
-              CREATIVE<span className="text-neon text-glow-purple transition-all group-hover:brightness-125">MATRIX</span>
+              ARTEN<span className="text-neon text-glow-purple transition-all group-hover:brightness-125">IXO</span>
             </span>
           </div>
           
           <p className="text-gray-400 text-base md:text-2xl leading-relaxed font-light mb-8 md:mb-10 max-w-3xl">
-            <span className="text-white font-bold">CREATIVEMATRIX</span> is a high-performance free learning ecosystem dedicated to creativity, systems, and strategy. Part of the global <span className="text-white font-bold underline decoration-neon/30 decoration-2 underline-offset-4">SAYEMATRIX</span> ecosystem.
+            <span className="text-white font-bold">ARTENIXO</span> is a high-performance free learning ecosystem dedicated to creativity, systems, and strategy. Part of the global <span className="text-white font-bold underline decoration-neon/30 decoration-2 underline-offset-4">ARTENIXO</span> ecosystem.
           </p>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4">
@@ -56,9 +56,9 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
            {/* Global Footer Line & Copyright */}
         <div className="pt-8 md:pt-12 border-t border-white/5 flex justify-center">
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[9px] md:text-[10px] text-zinc-500 font-bold uppercase tracking-[0.25em] font-orbitron text-center">
-            <span>&copy; CREATIVEMATRIX</span>
+            <span>&copy; ARTENIXO</span>
             <span className="hidden sm:inline text-zinc-800 font-normal">|</span>
-            <span>A SAYEMATRIX PROJECT</span>
+            <span>AN ARTENIXO PROJECT</span>
             <span className="hidden sm:inline text-zinc-800 font-normal">|</span>
             <span className="text-zinc-400 italic lowercase tracking-[0.15em] md:tracking-[0.2em] font-medium px-4 sm:px-0">No payment. No barrier. Just learning.</span>
           </div>

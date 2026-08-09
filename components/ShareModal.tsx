@@ -27,7 +27,7 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, title, url }) 
 
   if (!isOpen) return null;
 
-  const shareText = `Check out this lesson on CreativeMatrix.AI: ${title}`;
+  const shareText = `Check out this lesson on ARTENIXO: ${title}`;
   const encodedText = encodeURIComponent(shareText);
   const encodedUrl = encodeURIComponent(url);
 

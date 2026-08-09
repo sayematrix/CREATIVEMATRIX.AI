@@ -28,7 +28,7 @@ const SocialConnect: React.FC = () => {
               </div>
               <h3 className="text-3xl font-orbitron font-bold text-white mb-4">Masterclass Hub</h3>
               <p className="text-gray-400 mb-8 text-lg text-pretty leading-relaxed">
-                Long-form creative systems, software tutorials, and deep-dives into the SAYEMATRIX philosophy.
+                Long-form creative systems, software tutorials, and deep-dives into the ARTENIXO philosophy.
               </p>
               <a 
                 href="https://www.youtube.com/@sayematrix" 

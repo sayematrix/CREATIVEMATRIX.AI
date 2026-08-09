@@ -24,7 +24,7 @@ const PhilosophyDetail: React.FC<PhilosophyDetailProps> = ({ onBack }) => {
 
         <header className="mb-20">
           <h1 className="text-5xl md:text-7xl font-orbitron font-black text-white mb-8 leading-tight tracking-tighter">
-            THE <span className="text-purple-500">SAYEMATRIX</span> MANIFESTO
+            THE <span className="text-purple-500">ARTENIXO</span> MANIFESTO
           </h1>
           <p className="text-2xl text-purple-200/60 font-light leading-relaxed">
             "Freedom through structure. Growth through constraint. Mastery through the Matrix."
@@ -41,7 +41,7 @@ const PhilosophyDetail: React.FC<PhilosophyDetailProps> = ({ onBack }) => {
             </div>
             <div className="prose prose-invert max-w-none text-gray-400 space-y-4 text-lg">
               <p>
-                In an era of infinite noise, the greatest challenge is not a lack of options, but an abundance of them. SAYEMATRIX posits that true creativity requires a framework—a set of rules that act as the scaffolding for genius.
+                In an era of infinite noise, the greatest challenge is not a lack of options, but an abundance of them. ARTENIXO posits that true creativity requires a framework—a set of rules that act as the scaffolding for genius.
               </p>
               <h4 className="text-white font-bold mt-8 mb-2">The Structured Loop:</h4>
               <ul className="list-disc pl-6 space-y-2">
@@ -85,7 +85,7 @@ const PhilosophyDetail: React.FC<PhilosophyDetailProps> = ({ onBack }) => {
             </div>
             <div className="prose prose-invert max-w-none text-gray-400 space-y-4 text-lg">
               <p>
-                Knowledge should never be behind a wall. The SAYEMATRIX ecosystem operates on the "Free Learning" model. We believe that by providing the tools for free, we build a smarter, more capable world of creators who can then solve bigger problems.
+                Knowledge should never be behind a wall. The ARTENIXO ecosystem operates on the "Free Learning" model. We believe that by providing the tools for free, we build a smarter, more capable world of creators who can then solve bigger problems.
               </p>
               <p className="italic text-purple-400">
                 "No payment. No barrier. Just learning." isn't just a slogan; it's our operating system.

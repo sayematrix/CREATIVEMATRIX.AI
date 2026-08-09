@@ -13,7 +13,7 @@ const PhilosophySection: React.FC<PhilosophySectionProps> = ({ onReadMore }) => 
           <div className="flex-1 text-center lg:text-left order-2 lg:order-1">
             <div className="inline-flex items-center gap-2 text-purple-400/80 font-orbitron text-[9px] md:text-xs tracking-[0.2em] md:tracking-[0.3em] uppercase mb-4 md:mb-6">
               <BookOpen className="w-3 md:w-4 h-3 md:h-4" />
-              SAYEMATRIX Core
+              ARTENIXO Core
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-orbitron font-bold text-white mb-6 md:mb-8 leading-tight">
               The Philosophy of <span className="text-purple-500 text-glow-purple">Structure</span>

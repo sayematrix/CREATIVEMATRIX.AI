@@ -1,14 +1,13 @@
-# 🔮 CREATIVEMATRIX.AI
+# 🔮 ARTENIXO
 
-A high-performance, futuristic free-learning ecosystem for the **SAYEMATRIX** community. This platform is dedicated to mastering the intersection of AI, Design, and Systems.
+A high-performance, futuristic free-learning ecosystem for the **ARTENIXO** community. This platform is dedicated to mastering the intersection of AI, Design, and Systems.
 
 ## 🚀 Features
 
 - **The Matrix Aesthetic**: A high-contrast "Cyber-Noir" interface using Neon Purple and Matrix Green accents.
 - **Learning Hub**: 25+ structured masterclass modules on AI artistry, creative psychology, and productivity.
 - **One-Click PDF Export**: Download any lesson as a professionally formatted, branded PDF for offline study.
-- **Matrix Quick-Tools**: Instant AI-powered prompt engineering and content workflow generation using Gemini Flash.
-- **Hustlers' Circle**: Deep integration with the SAYEMATRIX Telegram and Discord communities.
+- **Hustlers' Circle**: Deep integration with the ARTENIXO Telegram and Discord communities.
 
 ## 🛠 Tech Stack
 
@@ -38,7 +37,7 @@ This project is optimized for deployment on Netlify.
 
 > "No payment. No barrier. Just learning."
 
-CreativeMatrix.AI operates on the conviction that the most valuable digital skills should be accessible to everyone, everywhere, without gatekeeping.
+ARTENIXO operates on the conviction that the most valuable digital skills should be accessible to everyone, everywhere, without gatekeeping.
 
 ---
-© 2025 CREATIVEMATRIX.AI | A SAYEMATRIX PROJECT
+© 2025 ARTENIXO | AN ARTENIXO PROJECT

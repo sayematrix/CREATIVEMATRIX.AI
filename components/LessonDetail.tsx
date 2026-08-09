@@ -82,7 +82,7 @@ const LessonDetail: React.FC<LessonDetailProps> = ({ lesson, onBack }) => {
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-gray-400 text-[9px] md:text-xs uppercase tracking-[0.15em] md:tracking-[0.2em] font-orbitron mb-10 md:mb-12 border-y border-white/5 py-6 md:py-8">
             <div className="flex items-center gap-2">
               <User className="w-3.5 h-3.5 md:w-4 md:h-4 text-purple-500/40" />
-              <span>By CreativeMatrix</span>
+              <span>By ARTENIXO</span>
             </div>
             <div className="flex items-center gap-2">
               <BookOpen className="w-3.5 h-3.5 md:w-4 md:h-4 text-purple-500/40" />

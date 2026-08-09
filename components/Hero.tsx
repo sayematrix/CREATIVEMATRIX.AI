@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
         <div className="max-w-7xl mx-auto text-center flex flex-col items-center">
           <div className="inline-block px-4 py-1.5 border border-neon/30 bg-neon/5 rounded-full mb-8 md:mb-12 animate-in fade-in slide-in-from-top-4 duration-700">
             <span className="text-neon font-orbitron text-[9px] sm:text-[10px] md:text-xs tracking-[0.2em] uppercase font-bold text-center">
-              PART OF SAYEMATRIX ECOSYSTEM
+              PART OF ARTENIXO ECOSYSTEM
             </span>
           </div>
           

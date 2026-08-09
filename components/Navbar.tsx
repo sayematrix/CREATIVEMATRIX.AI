@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
         >
           <Cpu className="text-neon w-8 h-8 transition-transform group-hover:rotate-12" />
           <span className="font-orbitron font-black text-xl tracking-tighter text-white">
-            CREATIVE<span className="text-neon">MATRIX</span>
+            ARTEN<span className="text-neon">IXO</span>
           </span>
         </div>
 

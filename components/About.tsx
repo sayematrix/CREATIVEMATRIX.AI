@@ -73,10 +73,10 @@ const About: React.FC = () => {
           
           <div className="space-y-6 md:space-y-8 text-zinc-400 text-base md:text-xl leading-relaxed font-light text-pretty">
             <p>
-              CreativeMatrix is born from the conviction that the most valuable digital skills aren't found in expensive degrees, but in the focused application of logic and creative systems.
+              ARTENIXO is born from the conviction that the most valuable digital skills aren't found in expensive degrees, but in the focused application of logic and creative systems.
             </p>
             <p>
-              As a proud part of the <span className="text-white font-bold">SAYEMATRIX</span> ecosystem, we believe that education should be accessible to everyone, everywhere, without hidden costs or friction.
+              As a proud part of the <span className="text-white font-bold">ARTENIXO</span> ecosystem, we believe that education should be accessible to everyone, everywhere, without hidden costs or friction.
             </p>
             <div className="relative p-6 md:p-10 border-l-4 border-purple-500 bg-purple-900/10 italic text-white text-lg md:text-2xl rounded-r-[1.5rem] md:rounded-r-[2rem] font-light shadow-2xl">
               "No payment. No barrier. Just learning."

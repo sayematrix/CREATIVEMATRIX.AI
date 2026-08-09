@@ -27,11 +27,11 @@ export const generateSingleLessonPDF = async (lesson: Lesson) => {
   doc.setFont("helvetica", "bold");
   doc.setFontSize(10);
   doc.setTextColor(clrNeon[0], clrNeon[1], clrNeon[2]);
-  doc.text("CREATIVEMATRIX", margin, 12);
+  doc.text("ARTENIXO", margin, 12);
   
   doc.setFontSize(8);
   doc.setTextColor(clrMuted[0], clrMuted[1], clrMuted[2]);
-  doc.text("SAYEMATRIX FREE-LEARNING ECOSYSTEM", pageWidth - margin, 12, { align: 'right' });
+  doc.text("ARTENIXO FREE-LEARNING ECOSYSTEM", pageWidth - margin, 12, { align: 'right' });
 
   let cursorY = 25;
   
@@ -107,7 +107,7 @@ export const generateSingleLessonPDF = async (lesson: Lesson) => {
   // Footer
   doc.setFontSize(7);
   doc.setTextColor(60, 60, 70);
-  doc.text("NO PAYMENT. NO BARRIER. JUST LEARNING. | @CREATIVEMATRIX", pageWidth / 2, pageHeight - 10, { align: 'center' });
+  doc.text("NO PAYMENT. NO BARRIER. JUST LEARNING. | @ARTENIXO", pageWidth / 2, pageHeight - 10, { align: 'center' });
   
-  doc.save(`CreativeMatrix_${lesson.id}_${lesson.tag}.pdf`);
+  doc.save(`ARTENIXO_${lesson.id}_${lesson.tag}.pdf`);
 };

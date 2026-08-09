@@ -48,7 +48,7 @@ export const ALL_LESSONS: Lesson[] = [
     description: 'Exploring the paradox of choice and how limiting your tools can lead to your best work.',
     image: 'https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?auto=format&fit=crop&q=80&w=800',
     tag: 'Philosophy',
-    content: 'The blank canvas is a nightmare because it offers infinite possibilities. When everything is possible, nothing is certain. True innovation often happens when the "easy way" is blocked. By imposing artificial constraints—limiting your time, your tools, or your palette—you force your brain to find unconventional solutions. This is the core of the SAYEMATRIX philosophy: structure provides the freedom to excel. When you stop worrying about "what" you could do and focus on "how" to do it within a box, the quality of your output skyrockets.',
+    content: 'The blank canvas is a nightmare because it offers infinite possibilities. When everything is possible, nothing is certain. True innovation often happens when the "easy way" is blocked. By imposing artificial constraints—limiting your time, your tools, or your palette—you force your brain to find unconventional solutions. This is the core of the ARTENIXO philosophy: structure provides the freedom to excel. When you stop worrying about "what" you could do and focus on "how" to do it within a box, the quality of your output skyrockets.',
     learningObjective: 'Leverage self-imposed limitations to force innovative problem-solving and unique stylistic choices.',
     corePrinciples: [
       'The Paradox of Choice: Too many options lead to paralysis; fewer options lead to action.',
@@ -106,10 +106,10 @@ export const ALL_LESSONS: Lesson[] = [
   {
     id: '7',
     title: 'Behind the scenes: my creative workflow',
-    description: 'A deep dive into the actual software stack and daily habits used at CreativeMatrix.',
+    description: 'A deep dive into the actual software stack and daily habits used at ARTENIXO.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
     tag: 'Systems',
-    content: 'Amateurs focus on tools; pros focus on systems. My workflow is a carefully designed machine that minimizes the distance between an idea popping into my head and it being ready for the world. Every app and habit is a gear in this machine. If a tool doesn\'t talk to the rest of the system, it is removed. This module takes you inside the actual "Operating System" used to build CreativeMatrix. It is not about the specific apps I use, but the *logic* behind why they are used together. Build a system, and the work builds itself.',
+    content: 'Amateurs focus on tools; pros focus on systems. My workflow is a carefully designed machine that minimizes the distance between an idea popping into my head and it being ready for the world. Every app and habit is a gear in this machine. If a tool doesn\'t talk to the rest of the system, it is removed. This module takes you inside the actual "Operating System" used to build ARTENIXO. It is not about the specific apps I use, but the *logic* behind why they are used together. Build a system, and the work builds itself.',
     learningObjective: 'Implement a professional-grade technical stack that minimizes friction between idea and execution.',
     corePrinciples: [
       'Minimal Friction: Every tool must serve a specific, non-redundant purpose.',
