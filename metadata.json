@@ -1,11 +1,5 @@
 {
-  "name": "CREATIVEMATRIX.AI",
-  "description": "High-performance AI learning ecosystem for the SAYEMATRIX community. Features interactive lessons, AI tools, and professional PDF exports.",
-  "requestFramePermissions": [],
-  "deployment": {
-    "platform": "netlify",
-    "env": [
-      "API_KEY"
-    ]
-  }
+  "name": "CREATIVEMATRIX",
+  "description": "High-performance learning ecosystem for the SAYEMATRIX community. Features interactive lessons and professional PDF exports.",
+  "requestFramePermissions": []
 }

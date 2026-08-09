@@ -21,7 +21,6 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
     { name: 'Home', target: '#home', isActive: currentView === 'landing' },
     { name: 'About', target: '#about', isActive: false },
     { name: 'Lessons', target: 'lessons-list', isActive: currentView === 'lessons-list' || currentView === 'lesson-detail' },
-    { name: 'AI Tools', target: '#tools', isActive: false },
     { name: 'Social', target: '#social', isActive: false },
     { name: 'Community', target: '#community', isActive: false },
   ];
@@ -41,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
         >
           <Cpu className="text-neon w-8 h-8 transition-transform group-hover:rotate-12" />
           <span className="font-orbitron font-black text-xl tracking-tighter text-white">
-            CREATIVE<span className="text-neon">MATRIX</span>.AI
+            CREATIVE<span className="text-neon">MATRIX</span>
           </span>
         </div>
 

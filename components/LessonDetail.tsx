@@ -55,7 +55,7 @@ const LessonDetail: React.FC<LessonDetailProps> = ({ lesson, onBack }) => {
 
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10 gap-6">
-          <button onClick={onBack} className="flex items-center gap-2 text-gray-500 hover:text-purple-400 transition-colors group font-bold text-xs md:text-sm tracking-wide font-orbitron uppercase">
+          <button onClick={onBack} className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition-colors group font-bold text-xs md:text-sm tracking-wide font-orbitron uppercase">
             <ArrowLeft className="w-4 h-4 md:w-5 md:h-5 group-hover:-translate-x-1 transition-transform" />
             Library
           </button>
@@ -79,10 +79,10 @@ const LessonDetail: React.FC<LessonDetailProps> = ({ lesson, onBack }) => {
             {lesson.title}
           </h1>
           
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-gray-500 text-[9px] md:text-xs uppercase tracking-[0.15em] md:tracking-[0.2em] font-orbitron mb-10 md:mb-12 border-y border-white/5 py-6 md:py-8">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-gray-400 text-[9px] md:text-xs uppercase tracking-[0.15em] md:tracking-[0.2em] font-orbitron mb-10 md:mb-12 border-y border-white/5 py-6 md:py-8">
             <div className="flex items-center gap-2">
               <User className="w-3.5 h-3.5 md:w-4 md:h-4 text-purple-500/40" />
-              <span>By CreativeMatrix.AI</span>
+              <span>By CreativeMatrix</span>
             </div>
             <div className="flex items-center gap-2">
               <BookOpen className="w-3.5 h-3.5 md:w-4 md:h-4 text-purple-500/40" />
@@ -160,7 +160,7 @@ const LessonDetail: React.FC<LessonDetailProps> = ({ lesson, onBack }) => {
 
           <div className="pt-16 md:pt-20 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-12 pb-10">
             <div className="text-center md:text-left">
-              <p className="text-[10px] text-gray-500 mb-2 font-orbitron tracking-[0.2em] md:tracking-[0.3em] uppercase">Next Connection</p>
+              <p className="text-[10px] text-gray-400 mb-2 font-orbitron tracking-[0.2em] md:tracking-[0.3em] uppercase">Next Connection</p>
               <button onClick={onBack} className="text-white font-bold hover:text-purple-400 transition-colors flex items-center gap-2 group text-base md:text-lg font-orbitron tracking-wider">
                 Browse Library
                 <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />

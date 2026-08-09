@@ -3,7 +3,6 @@ import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import About from './components/About.tsx';
 import LearningHub from './components/LearningHub.tsx';
-import Tools from './components/Tools.tsx';
 import PhilosophySection from './components/PhilosophySection.tsx';
 import PhilosophyDetail from './components/PhilosophyDetail.tsx';
 import SocialConnect from './components/SocialConnect.tsx';
@@ -108,7 +107,6 @@ const App: React.FC = () => {
               onExploreAll={() => setView('lessons-list')} 
               onSelectLesson={handleSelectLessonById}
             />
-            <Tools />
             <SocialConnect />
             <Community />
           </div>

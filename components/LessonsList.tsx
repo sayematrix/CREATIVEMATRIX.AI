@@ -46,7 +46,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
         doc.setFont("helvetica", "bold");
         doc.setFontSize(10);
         doc.setTextColor(clrNeon[0], clrNeon[1], clrNeon[2]);
-        doc.text("CREATIVEMATRIX.AI", margin, 12);
+        doc.text("CREATIVEMATRIX", margin, 12);
         doc.setFontSize(8);
         doc.setTextColor(clrMuted[0], clrMuted[1], clrMuted[2]);
         doc.text("SAYEMATRIX FREE-LEARNING ECOSYSTEM", pageWidth - margin, 12, { align: 'right' });
@@ -100,7 +100,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
         drawSubSection("ACTION BREAKDOWN", lesson.actionBreakdown);
         doc.setFontSize(7);
         doc.setTextColor(60, 60, 70);
-        doc.text("NO PAYMENT. NO BARRIER. JUST LEARNING. | @CREATIVEMATRIX.AI", pageWidth / 2, pageHeight - 10, { align: 'center' });
+        doc.text("NO PAYMENT. NO BARRIER. JUST LEARNING. | @CREATIVEMATRIX", pageWidth / 2, pageHeight - 10, { align: 'center' });
         doc.text(`PAGE ${index + 2} OF ${ALL_LESSONS.length + 1}`, pageWidth - margin, pageHeight - 10, { align: 'right' });
       };
 
@@ -116,7 +116,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
       doc.text("COMPLETE CREATIVE CURRICULUM", margin, 115);
       doc.setFontSize(10);
       doc.setTextColor(clrMuted[0], clrMuted[1], clrMuted[2]);
-      doc.text("Masterclass Modules on Design, AI, and Strategy", margin, 125);
+      doc.text("Masterclass Modules on Design, Systems, and Strategy", margin, 125);
       doc.setDrawColor(clrNeon[0], clrNeon[1], clrNeon[2]);
       doc.setLineWidth(2);
       doc.line(margin, 135, margin + 50, 135);
@@ -151,7 +151,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
             <button 
               onClick={onBack}
-              className="flex items-center gap-2 text-gray-500 hover:text-purple-400 transition-colors group text-sm font-bold tracking-wider"
+              className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition-colors group text-sm font-bold tracking-wider"
             >
               <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
               Back to Hub
@@ -174,7 +174,7 @@ const LessonsList: React.FC<LessonsListProps> = ({ onBack, onSelectLesson }) => 
            <h1 className="text-4xl md:text-7xl font-orbitron font-black uppercase leading-[1.1] tracking-tighter mb-8">
             THE KNOWLEDGE <span className="text-purple-400">RECAP</span> 
              </h1>
-                        <p className="text-gray-400 text-lg text-pretty">Masterclasses on Creative Systems & AI Artistry</p>
+                        <p className="text-gray-400 text-lg text-pretty">Masterclasses on Creative Systems & Strategy</p>
             </div>
             
             <div className="relative w-full lg:w-96">

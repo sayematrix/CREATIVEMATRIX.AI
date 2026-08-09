@@ -23,26 +23,6 @@ export const ALL_LESSONS: Lesson[] = [
     ]
   },
   {
-    id: '2',
-    title: 'How AI enhances—not replaces—creativity',
-    description: 'Shifting the mindset from fear to collaboration. Learn how to use LLMs as brainstorming partners.',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
-    tag: 'AI Strategy',
-    content: 'The fear that AI will replace the human creator is a misunderstanding of what creativity actually is. Creativity isn\'t just production; it\'s taste, curation, and the ability to ask the right questions. AI is a "stochastic parrot" that can generate billions of permutations, but it lacks the "human ghost" required to judge what is meaningful. By treating AI as an intern or a high-speed brainstorming partner, you free yourself from the mechanical labor of creation and ascend to the role of a Creative Director. The Matrix is about leveraging these machine layers to amplify your human potential, not substitute it.',
-    learningObjective: 'Develop a synergistic workflow where AI handles technical grunt work while you maintain creative direction.',
-    corePrinciples: [
-      'Iterative Prompting: Moving from "one-shot" generation to conversational refinement.',
-      'The Human-in-the-Loop: Identifying the specific points where human taste is irreplaceable.',
-      'Tool Agnosticism: Choosing AI tools based on workflow needs rather than hype.'
-    ],
-    actionBreakdown: [
-      'Identify one repetitive task in your workflow that takes more than 30 minutes.',
-      'Use an LLM to generate 10 variations of a single concept in under 2 minutes.',
-      'Curate and refine the best 2 variations using your own aesthetic judgment.',
-      'Document the "Prompt Chain" used for future consistency.'
-    ]
-  },
-  {
     id: '3',
     title: 'My 3-step system to find creative flow instantly',
     description: 'A practical framework for triggering the flow state whenever you sit down to create.',
@@ -129,7 +109,7 @@ export const ALL_LESSONS: Lesson[] = [
     description: 'A deep dive into the actual software stack and daily habits used at CreativeMatrix.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
     tag: 'Systems',
-    content: 'Amateurs focus on tools; pros focus on systems. My workflow is a carefully designed machine that minimizes the distance between an idea popping into my head and it being ready for the world. Every app and habit is a gear in this machine. If a tool doesn\'t talk to the rest of the system, it is removed. This module takes you inside the actual "Operating System" used to build CreativeMatrix.AI. It is not about the specific apps I use, but the *logic* behind why they are used together. Build a system, and the work builds itself.',
+    content: 'Amateurs focus on tools; pros focus on systems. My workflow is a carefully designed machine that minimizes the distance between an idea popping into my head and it being ready for the world. Every app and habit is a gear in this machine. If a tool doesn\'t talk to the rest of the system, it is removed. This module takes you inside the actual "Operating System" used to build CreativeMatrix. It is not about the specific apps I use, but the *logic* behind why they are used together. Build a system, and the work builds itself.',
     learningObjective: 'Implement a professional-grade technical stack that minimizes friction between idea and execution.',
     corePrinciples: [
       'Minimal Friction: Every tool must serve a specific, non-redundant purpose.',
@@ -381,26 +361,6 @@ export const ALL_LESSONS: Lesson[] = [
       'Use "Leading Lines" to point the viewer directly to the emotional core.',
       'Color grade an image using only "Cold" or "Warm" tones and observe the story shift.',
       'Create a 3-panel visual story: Problem, Action, Resolution.'
-    ]
-  },
-  {
-    id: '20',
-    title: 'Using AI tools like Midjourney and Runway for creators',
-    description: 'A practical guide to integrating generative images and video into your projects.',
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800',
-    tag: 'AI Strategy',
-    content: 'Generative AI is the "Superpower" of the modern era. Tools like Midjourney and Runway allow a single person to produce work that previously required a whole studio and a million-dollar budget. But these tools are only as good as the person driving them. This module is a high-level guide to the "Advanced Controls" of generative AI. We move beyond simple prompts and look at how to control style, consistency, and motion. This is the technical edge of the SAYEMATRIX ecosystem. If you can imagine it, you can now build it in seconds.',
-    learningObjective: 'Unlock new creative possibilities by mastering advanced generative AI workflows.',
-    corePrinciples: [
-      'Latent Space Exploration: Seeing AI as a "Camera for the Mind."',
-      'Seed Control: Using reference images to maintain stylistic consistency.',
-      'The Remix Mindset: Combining multiple AI outputs with traditional design.'
-    ],
-    actionBreakdown: [
-      'Generate a base image using a "Style Reference" tag.',
-      'Use "In-painting" to change one specific detail of the image.',
-      'Animate the result using a video-gen tool like Runway.',
-      'Composite the AI video into a traditional edit for a high-end feel.'
     ]
   },
   {

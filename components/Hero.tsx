@@ -47,7 +47,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </h1>
 
           <p className="text-sm sm:text-lg md:text-xl text-zinc-400 mb-10 md:mb-16 font-space font-light max-w-3xl mx-auto leading-relaxed uppercase tracking-[0.3em] px-2">
-            High-performance AI lessons on <span className="text-white font-bold">creativity,</span> <span className="text-white font-bold">systems</span> and <span className="text-white font-bold">automation</span>
+            High-performance lessons on <span className="text-white font-bold">creativity,</span> <span className="text-white font-bold">systems</span> and <span className="text-white font-bold">strategy</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center w-full sm:w-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500">

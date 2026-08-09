@@ -73,7 +73,7 @@ const About: React.FC = () => {
           
           <div className="space-y-6 md:space-y-8 text-zinc-400 text-base md:text-xl leading-relaxed font-light text-pretty">
             <p>
-              CreativeMatrix.AI is born from the conviction that the most valuable digital skills aren't found in expensive degrees, but in the focused application of logic and machine intelligence.
+              CreativeMatrix is born from the conviction that the most valuable digital skills aren't found in expensive degrees, but in the focused application of logic and creative systems.
             </p>
             <p>
               As a proud part of the <span className="text-white font-bold">SAYEMATRIX</span> ecosystem, we believe that education should be accessible to everyone, everywhere, without hidden costs or friction.
